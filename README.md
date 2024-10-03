@@ -56,12 +56,8 @@ This project is licensed under the MIT License.
 
 ## Author
 
-**ANUKOOL PANDEY**
+**ANUKOOL324**
 ```
-
-### Instructions:
-- Replace `yourusername` in the clone URL with your actual GitHub username.
-- Copy the above text and paste it into your `README.md` file in your repository.
 
 
  
