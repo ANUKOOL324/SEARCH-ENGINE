@@ -1,3 +1,3 @@
 # SEARCH-ENGINE
- A project made by just HTML and CSS 
+ A project made by HTML and CSS 
  
