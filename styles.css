@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(44, 45, 46);
+}
+
+#qq {
+
+    text-align: right;
+    color: black;
+}
+
+#WW {
+    height: 160px;
+}
+
+
+input[type="search"] {
+    border-radius: 12px;
+    padding: 8px;
+    border: 1px solid #968989;
+    outline: none;
+
+}
+
+#mm {
+    margin-right: -52px;
+    margin-top: 1px;
+
+    background-color: rgb(201, 200, 200);
+    border-color: aquamarine;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+
+}
+
+#mm:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 6, 6);
+}
+
+
+.ee {
+    text-align: center;
+}
+
+#zz {
+    margin-left: -54px;
+    padding-left: 10px;
+    background-color: rgb(201, 200, 200);
+    border-color: aquamarine;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+
+#zz:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 6, 6);
+}
+
+#f1 {
+    display: inline;
+}
+
+#f2 {
+    display: inline;
+}
+
+#input {
+    text-align: left;
+    display: inline;
+
+    box-shadow: 0 0 10px rgba(235, 235, 235, 0.1);
+}
+
+#i1 {
+    display: inline;
+
+}
+
+#i2 {
+    display: inline;
+}
+
+a:visited,
+a:active {
+    color: rgb(182, 185, 182);
+}
+
+a:hover {
+    color: blue;
+}

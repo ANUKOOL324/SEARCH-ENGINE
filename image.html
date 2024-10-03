@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search</title>
+    <style>
+      body {
+        background-color: rgb(66, 66, 66);
+      }
+      .iv {
+        height: 200px;
+      }
+      #nn {
+        text-align: center;
+      }
+      input[type="search"] {
+        border-radius: 12px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        outline: none;
+      }
+      #h {
+        text-align: right;
+      }
+      a:visited,
+      a:active {
+        color: rgb(182, 185, 182);
+      }
+      a:hover {
+        color: blue;
+      }
+      #jj {
+        background-color: rgb(170, 167, 167);
+        border-radius: 8px;
+        border-color: azure;
+        padding: 5px;
+        margin: 10px;
+        font-size: medium;
+      }
+      #jj:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(6, 6, 6);
+        cursor: pointer;
+      }
+      #ll {
+        margin-top: -38px;
+        margin-left: 203px;
+      }
+      #tu {
+        color: rgb(93, 119, 249);
+      }
+      #d {
+        height: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="iv" id="h"><a href="index.html">Google Search</a></div>
+    </header>
+
+    <div class="iv" id="nn">
+      <div>
+        <img
+          alt="Google Images"
+          height="92"
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png"
+        />
+
+        <div id="ll"><p id="tu">Images</p></div>
+      </div>
+      <form action="https://www.google.com/images" method="GET">
+        <input
+          type="search"
+          placeholder="Search Google or type a URL"
+          name="q"
+          size="60"
+        />
+        <br />
+        <div id="d"></div>
+        <input id="jj" type="submit" value="Google Search" />
+      </form>
+    </div>
+  </body>
+</html>
